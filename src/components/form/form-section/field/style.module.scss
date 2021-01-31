@@ -1,0 +1,32 @@
+@import '../../../../styles/variables.css';
+
+:root {
+  --one: 100%;
+  --two: 50%;
+  --three: calc(100%/3);
+}
+
+.fieldWrapper {
+  padding: 0 var(--offset-md);
+}
+.count1 {
+  width: var(--one);
+}
+.count2{
+  width: var(--two);
+
+  @media (max-width: 731.98px) {
+    width: var(--one);
+  }
+}
+.count3{
+  width: var(--three);
+
+  @media (min-width: 732px) and (max-width: 1311.98px) {
+    width: var(--two);
+  }
+
+  @media (max-width: 731.98px) {
+    width: var(--one);
+  }
+}

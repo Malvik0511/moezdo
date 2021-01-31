@@ -1,0 +1,25 @@
+@import '../../../styles/variables.css';
+
+.submitWrapper {
+    padding-top: 50px;
+}
+
+.section {
+    &:first-child {
+        padding: 32px 0 0;
+    }
+
+    &TextWrapper {
+        padding-bottom: var(--offset-lg);
+    }
+
+     .group {
+         display: flex;
+         margin: 0 calc(-1 * var(--offset-md));
+         flex-wrap: wrap;
+     }
+}
+
+.titleWrapper {
+    padding-bottom: var(--offset-lg);
+}

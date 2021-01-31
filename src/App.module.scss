@@ -1,0 +1,18 @@
+@import "./styles/variables.css";
+
+.App {
+    margin: auto;
+    width: 900px;
+
+    @media (min-width: 732px) and (max-width: 1311.98px) {
+        width: 640px;
+    }
+
+    @media (max-width: 731.98px) {
+        width: 320px
+    }
+
+    .tabWrapper {
+        padding-top: var(--offset-lg);
+    }
+}

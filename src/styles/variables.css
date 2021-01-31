@@ -1,0 +1,16 @@
+
+:root {
+    /*offsets*/
+    --offset-xs: 4px;
+    --offset-sm: 8px;
+    --offset-md: 16px;
+    --offset-md2: 24px;
+    --offset-lg: 32px;
+    --offset-xl: 64px;
+
+    /*colors*/
+    --white: #FFF;
+
+    /*border-radius*/
+    --sm-border-radius: 8px;
+}
